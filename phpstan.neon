@@ -1,0 +1,5 @@
+parameters:
+  # This code is horrible test code, passing level 0 would be a miracle
+  level: 0
+  paths:
+  - web
