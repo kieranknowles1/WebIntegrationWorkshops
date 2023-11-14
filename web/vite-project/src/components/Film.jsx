@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import React from 'react'
 
 /**
  * A component to display details about a film
@@ -22,7 +23,7 @@ Film.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     rating: PropTypes.number.isRequired,
-    category: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired
 }
 
 export default Film

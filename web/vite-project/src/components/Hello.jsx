@@ -1,3 +1,5 @@
+import React from 'react'
+
 /**
  * A simple component to print hello world
  *
