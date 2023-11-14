@@ -3,6 +3,8 @@ import React from 'react'
 import Hello from './components/Hello'
 import Film from './components/Film'
 
+import doughnut from './assets/doughnut.jpg'
+
 import './App.css'
 
 function App() {
@@ -19,6 +21,10 @@ function App() {
     // A container tag is required to return multiple components
     // A common pattern is to use an empty tag `<>` to create a container
         <>
+            <div className='container'>
+                <img className='float-right' src={doughnut} alt='A doughnut' height={400} />
+                <p>Photo by Viktoriia Kondratiuk: https://www.pexels.com/photo/three-donuts-stacked-on-top-of-each-other-with-lights-18783672/</p>
+            </div>
             {/* `<Hello />` references the Hello component declared above */}
             <Hello />
             <button onClick={() => setCount(count + 1)}>Click me</button>
