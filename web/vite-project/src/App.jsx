@@ -1,6 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
 import React from 'react'
 
+import Menu from './components/Menu'
+
 import Actors from './pages/Actors'
 import FilmListings from './pages/FilmListings'
 import Home from './pages/Home'
@@ -13,6 +15,7 @@ function App() {
     // A container tag is required to return multiple components
     // A common pattern is to use an empty tag `<>` to create a container
         <div className='app'>
+            <nav><Menu /></nav>
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/films' element={<FilmListings />} />
