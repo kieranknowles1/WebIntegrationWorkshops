@@ -10,13 +10,26 @@ import React from 'react'
  * @generated GitHub Copilot was used to assist in generating this code
  */
 function Menu() {
+    const items = [
+        { name: 'Home', path: '/' },
+        { name: 'Film Listings', path: '/films' },
+        { name: 'Actors', path: '/actors' },
+        { name: 'Facts', path: '/facts' }
+    ]
+    const itemsElements = items.map((item) => {
+        return (
+            <li key={item.path} className='hover:bg-orange-300'>
+                <Link to={item.path}>{item.name}</Link>
+            </li>
+        )
+    })
+
     return (
-        <ul>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/films'>Film Listings</Link></li>
-            <li><Link to='/actors'>Actors</Link></li>
-            <li><Link to='/facts'>Facts</Link></li>
-        </ul>
+        <nav className='bg-orange-400'>
+            <ul className='flex flex-col md:flex-row justify-evenly'>
+                {itemsElements}
+            </ul>
+        </nav>
     )
 }
 
