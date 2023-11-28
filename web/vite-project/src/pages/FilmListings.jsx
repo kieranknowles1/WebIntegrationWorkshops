@@ -11,14 +11,30 @@ import Film from '../components/Film'
  * @generated GitHub Copilot was used to assist in generating this code
  */
 function FilmListings() {
-    const films = [
-        <Film key={1} title='Naming Things is Hard' description='It really is quite hard' rating={1000} category='Films' />,
-        <Film key={2} title='What even are films?' description='I have no idea' rating={0} category='Fiction' />
-    ]
+    const [loading, setLoading] = React.useState(true)
+    const [films, setFilms] = React.useState([])
+    // `fetch` returns a promise that resolves to a response object
+    // `Promise.then` is used to handle the response once it is available
+    // `Promise.catch` is used to handle any errors that occur
+    // NOTE: This will not work from localhost due to CORS restrictions
+    React.useEffect(() => {
+        console.log('Fetching film listings...')
+        fetch('https://w20013000.nuwebspace.co.uk/week5/films')
+            .then(response => response.json())
+            .then(json => {
+                setFilms(json.map((film, index) => <Film key={index} {...film} />))
+            })
+            .catch(error => {
+                console.error(error)
+                setFilms(<p>Unable to load film listings. See console for details.</p>)
+            })
+            .finally(() => setLoading(false))
+    }, [])
 
     return (
         <>
             <h1>Film Listings</h1>
+            {loading && <p>Loading film listings...</p>}
             {films}
         </>
     )

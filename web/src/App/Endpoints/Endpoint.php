@@ -51,7 +51,7 @@ abstract class Endpoint
     public function outputHeaders(): void
     {
         header('Content-Type: application/json');
-        header('Access-Control-Allow-Origin: https://w20013000.nuwebspace.co.uk');
+        header('Access-Control-Allow-Origin: *');
         $methodsStr = implode(', ', $this->getSupportedMethods()) . ', OPTIONS';
         header("Access-Control-Allow-Methods: $methodsStr");
         http_response_code($this->getCode());

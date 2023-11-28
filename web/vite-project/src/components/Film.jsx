@@ -14,7 +14,7 @@ function Film(props) {
             <ul>
                 <li>Description: {props.description}</li>
                 <li>Rating: {props.rating}</li>
-                <li>Category: {props.category}</li>
+                {props.category !== null && <li>Category: {props.category}</li>}
             </ul>
         </div>
     )
@@ -22,8 +22,8 @@ function Film(props) {
 Film.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    rating: PropTypes.number.isRequired,
-    category: PropTypes.string.isRequired
+    rating: PropTypes.string.isRequired,
+    category: PropTypes.string
 }
 
 export default Film

@@ -4,6 +4,7 @@ import React from 'react'
 import Menu from './components/Menu'
 
 import Actors from './pages/Actors'
+import Facts from './pages/Facts'
 import FilmListings from './pages/FilmListings'
 import Home from './pages/Home'
 import PageNotFound from './pages/PageNotFound'
@@ -20,6 +21,7 @@ function App() {
                 <Route path='/' element={<Home />} />
                 <Route path='/films' element={<FilmListings />} />
                 <Route path='/actors' element={<Actors />} />
+                <Route path='/facts' element={<Facts />} />
                 {/* A catch-all route to redirect to the 404 page */}
                 <Route path='*' element={<PageNotFound />} />
             </Routes>

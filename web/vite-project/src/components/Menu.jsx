@@ -15,6 +15,7 @@ function Menu() {
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/films'>Film Listings</Link></li>
             <li><Link to='/actors'>Actors</Link></li>
+            <li><Link to='/facts'>Facts</Link></li>
         </ul>
     )
 }

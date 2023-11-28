@@ -21,6 +21,7 @@ class Response
     private function setHeaders(): void
     {
         header("Content-Type: application/json");
+        header("Access-Control-Allow-Origin: *");
     }
 
     public function outputJson(): void
