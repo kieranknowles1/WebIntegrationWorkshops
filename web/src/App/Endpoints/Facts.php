@@ -56,7 +56,7 @@ class Facts extends Endpoint
             "I Expect You To Die combines Bond, MacGyver, escape rooms, except that Bond is a complete idiot and survives by sheer luck and the intro music is far too catchy.",
             "The British have long forgotten why they hate the French, at some point we just started going along with it.",
             "Negotiating is easy, I want £20 million, you want the hostages back, a win-win for both of us.",
-            "Some species of animals have a name for when you don't know what their owners call them. For examples, all lizards are called Dave",
+            "Some species of animals have a name for when you don't know what their owners call them. For examples, all lizards are called 'Dave!', the exclamation mark is part of the name.",
             "The number of bad ideas that seemed good at the time is directly proportional to the amount of alcohol consumed.",
             <<<LONG_ONE
             The more times you replay Skyrim, the weirder the bugs get. , we forgot what the players name was, let's just use the first string we find.
@@ -72,7 +72,7 @@ class Facts extends Endpoint
             "American units make no sense, since blaming the Americans is the same as blaming the French, I blame the French. Even though they made the metric system.",
             "Most of the experiments in the SCP foundation are just the researchers messing with the D class.",
             "Sports invented by the British are played all around the world and the British are terrible at them. Sports invented by the Americans are only played in America and the Americans are #1 at them. Except for American Football which is just rugby.",
-            "1 standard Freedom Land™ can is 355ml. That makes no sense whatsoever.",
+            "1 American can of milk is 400ml and the length of a mile depends on whether you're a boat. That makes no sense whatsoever.",
             "You have successfully subscribed to Random Facts By Text. You have selected 'HOURLY' as your frequency. Note that this is not a free service and you will be charged £1 per text. To unsubscribe, send a hand written letter using a quill and ink containing your phone number, the sentence 'UnSub me m8' written using an ink and quill to Svalbard.",
             "PHP is a recursive acronym for Programmers Hate PHP.",
             "The best way of fixing issues in PHP is to rewrite everything in TypeScript.",
@@ -119,12 +119,52 @@ class Facts extends Endpoint
                 -- All ingredients were available
                 HAVING available_count = total_count
             SQL,
-            "In Stellaris, the most important decision is whether to be militarist space racists, or space racists who are also militarists.",
+            "In Stellaris, the most important decision is what to combine xenophobe with. The next part is deciding how to make the xenos useful. Work them to death in the mines, turn them into fast food, or keep them as pets. ",
             "Most construction projects are just there to keep the engineers busy. There is little more dangerous than a bored engineer.",
             "Newcastle is the best city in England, it's far from France, has plenty of Greggs, and is a safe distance from people who deep fry mars bars.",
             "LGBTQ+ keeps getting longer. I propose we simplify it to match(/\\w+/).",
             "'; DROP TABLE facts; -- Don't scrape my website.",
-            "Cat names are either Barry, or Lord Fluffington the 3rd, devourer of souls.",
+            "Cat names are either Barry, or Lord Fluffington the 3rd, devourer of souls",
+            "England has had many influential rulers, such as King Charles the 1st, who was so unpopular that parliament abolished the monarchy and replaced it with Oliver Cromwell, and Oliver Cromwell, who was so unpopular that he was posthumously executed and parliament brought back the monarchy, and David Cameron, who thought brexit would never pass and ran away when it did, and Liz Truss, who managed to destroy the economy despite not working for half her time in office.",
+            "The best way to win a fight is to confuse your opponent. If they're distracted by your war trombone, they'll never see the battle tambourine coming.",
+            "While the rest of the world is typing on A4, the americans are still deciding if they're going to write a letter, a legal document, a tabloid, or if they're an executive. Once they've decided, they'll have to hope the printer has the right paper. This is one of the many reasons that metric is objectively superior.",
+            "The reason why dial up is so slow now is that there aren't many people who can still speak it. Every time you connect, you have to wait for the other person to clock in from their lunch break. They only get paid during the call so you bet they're going to take their time.",
+            "FTL is a game about bringing together a band of psychotic war criminals to save the galaxy from the rebels who are racist, but after seeing who the federation is hiring, they might still be the good guys. With Multiverse, you can also show pirates how raiding is done by dropping napalm on innocent civilians and kill a man who just gave you a gift (but probably not, damn Sylvan is strong, at least his boss music that replaces the normal boss music is an absolute banger).",
+            "'Only sith deal in absolutes' is an absolute. Therefore, Obi Wan is a sith and killing the younglings might have been justified.",
+            "TypeScript is known and loved for its robust type system. PHP saw that, and did it quarter-assed. TypeScript types are compile time and replace JSDoc, PHP types are runtime and need to be supplemented with PHPDoc and PHPStan whenever you have an array. TypeScript takes the 'make sure definitely is the right type approach', PHP takes the 'it could be the right type or the wrong type. I'll just assume it's right since it's one of the three things I expect' approach.",
+            <<<XCOM
+                The shenanigans of a typical long war 2 campaign:
+                - The soldier you sent to prepare a rescue mission is captured while still successfully completing the mission.
+                - You one-shot a chosen while only killing a minimal number of civilians.
+                - You get 150% crit chance and 100% hit chance
+                - You miss 6 60% shots in a row
+                - A rookie gets sent out during the avenger defence and survives
+                - The soldier who got gravely wounded from a mind controlled soldier ally's overwatch gets lightning reflexes at the end of the same mission
+                - Snipers are used at point blank range, while a shotgunner is your furthest back soldier
+                - You take on a mission where enemy activity is swarming with 8 pluses and every enemy is massively buffed just to see what would happen
+                - You abuse officer abilities to only fight 1 enemy for the entire mission
+                - Bluescreen + hunter's rifle + death from above + high ground + fan fire = 1 shotting a sectopod from full armour and health after going on a rampage and killing everything else in sight
+                - Iron curtain an ambush to keep all the enemies from reaching cover and reducing chryssalid movement to 1
+                - Have a paramedic try to heal a propane tank. Why is this even an option? I had to try it just to see what would happen.
+                - Fail to hit a sectoid 6 times in a row and resorting to using a grenade to kill it
+                - Using a rocket launcher on a lone drone since there's nothing else to use it on
+                - Rush to kill the first chosen, then realise you f**ked up since the avatar project is nearly complete, no one is ready to fight, there's a retaliation you have to win to be able to do the facility, and you'll have to do it with a squad of rookies
+                - Go into a retaliation with one spark and 5 rookies you just recruited because everyone else is wounded, and come out with no deaths and the rookie being called overqualified
+                - 70% dominate a gatekeeper, that's fun to do
+                - Aim a grenade to maximise civilian deaths while still killing the enemy
+                - Bladestorm chryssalids with the katana. The best way to make a ranger an unstoppable killing machine.
+                - Have advent try to deploy half their army to a single region, which they can't do since they're trying to do it to 2 others at the same time
+            XCOM,
+            "TypeScript types don't exist at runtime, but the type system is so good that you can probably abuse it into existing at runtime. If not, you can always do 'as any' and hope for the best.",
+            "According to image generation AI, all Java programmers drink black coffee and 1 in 4 have an extra arm to hold their coffee.",
+            "Responsive design is mobile friendly, mobile first design is mobile only.",
+            "The genius of Node.js allows for creating hello world with as few as 50 dependencies and a web server with just a few hundred. Want to add a loading spinner? Just add 66 on top of what you already have.",
+            "You don't need to worry about the safety of flying if you pilot was former air force. Unless their call sign was 'Crash and burn', then you should be worried. If it was 'Diplomatic incident', you should ask since that sounds like a fun story.",
+            "Socialism doesn't count unless you have a Russian accent.",
+            "The rules of the road for tanks are whatever the driver says. Unless it's a Russian tank in Ukraine at the beginning of the war, then a farmer will tow it for parking illegally.",
+            "The limit to the length of an IMAX reel was put in place to keep Christopher Nolan in check. He's still trying to get around it.",
+            "The most powerful character in Star Wars is Darth Jar Jar. He managed to manipulate the council into giving emergency powers to Palpatine, then betrayed him when order 66 happened to kidnap Baby Yoda while disguised as a Jedi. His only mistake was not having a purple lightsaber which led to Baby Yoda escaping. But Jar Jar is still out there, waiting for the right time to strike.",
+            "Is your code suddenly crashing? Check the logs and blame whatever wrote the last line. Dependencies broke? Stalin sort them out and comment out any code that the compiler complains about. You might just get away with it. Just make sure to create an issue saying 'these libraries are temporarily fucked, so you don't forget",
         ];
         $sources = [
             null,

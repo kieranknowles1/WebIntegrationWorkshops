@@ -48,7 +48,9 @@ function Facts() {
             <p>
                 Please note that the facts on this page are not guaranteed to be
                 safe, legal, ethical, truthful, factual, or useful. Except for
-                the ones criticising the tories, those are all true.
+                the ones criticising the tories, the imperial system of units,
+                or the one about lesbian space pirates (look it up, I only slightly exaggerated it)
+                those are all true. Yes. I know that&apos;s a strange combination of exceptions.
                 <br />
                 I take no responsibility for any consequences of using the facts
                 on this page whether they are legal, social, or result in any
