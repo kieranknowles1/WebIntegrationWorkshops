@@ -9,7 +9,7 @@ import React from 'react'
  */
 function Film(props) {
     return (
-        <div className='container'>
+        <div>
             <h2>{props.title}</h2>
             <ul>
                 <li>Description: {props.description}</li>

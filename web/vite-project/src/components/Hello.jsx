@@ -8,7 +8,7 @@ import React from 'react'
  */
 function Hello() {
     return (
-        <div className='container'>
+        <div>
             <p>Hello, World from a component!</p>
         </div>
     )

@@ -9,13 +9,11 @@ import FilmListings from './pages/FilmListings'
 import Home from './pages/Home'
 import PageNotFound from './pages/PageNotFound'
 
-import './App.css'
-
 function App() {
     return (
     // A container tag is required to return multiple components
     // A common pattern is to use an empty tag `<>` to create a container
-        <div className='app'>
+        <div>
             <nav><Menu /></nav>
             <Routes>
                 <Route path='/' element={<Home />} />

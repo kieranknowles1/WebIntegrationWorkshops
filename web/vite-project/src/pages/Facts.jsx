@@ -2,8 +2,6 @@ import React from 'react'
 
 import Fact from '../components/Fact'
 
-import './Facts.css'
-
 function getFact(setFact, setLoading, setError) {
     setFact(null)
     setLoading(true)
